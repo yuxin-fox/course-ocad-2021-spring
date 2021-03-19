@@ -1,0 +1,40 @@
+/* This file is the styles of dogs salon */
+/* Author: Yuxin Gao */
+/* Date: Mar 9, 2021 */
+/* version 0.1 */
+
+#rest {
+    background-image: url("../images/pets/dogs/doggro.jpg");
+    width: 1450px;
+    height: 844px ;
+}
+
+.seat-img{
+    top: 240px;
+    left: 350px;
+    position: relative;
+
+    animation-name: moveDog;
+    animation-duration: 3s;
+    animation-delay: 0s;
+    animation-iteration-count: infinite;
+}
+
+.bubble{
+    top: 350px;
+    left: -120px;
+    position: relative;
+}
+
+.cat14{
+    top: 720px;
+    left: 400px;
+    position: relative;
+}
+
+@keyframes moveDog
+{
+    0%   {top:230px; left:340px;  opacity: 0.99;}
+    50%  {top:230px; left:330px;  opacity: 0.99;}
+    100% {top:230px; left:340px;  opacity: 0.99;}
+}

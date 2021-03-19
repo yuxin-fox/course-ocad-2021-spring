@@ -1,0 +1,65 @@
+/* This file is for slidebar and pagination */
+/* Last Edited: Yuxin Gao */
+/* Date: Mar 9, 2021 */
+/* version 0.1 */
+
+.slider_wrapper {
+	overflow: hidden;
+	position: relative;
+	z-index: 0;
+	width: 100%;
+	height: 400px;
+
+}
+
+.caption {
+	left: 0px;
+	right: 0px;
+	top: 0;
+	bottom: 0;
+	position: absolute;
+	z-index: 1 !important;
+
+}
+
+.pagination  {
+	display: block;
+	position: absolute;
+	left: 50%;
+	bottom: 73px;
+	width: 178px;
+	height: 32px;
+	margin-left: -89px;
+	overflow: hidden;
+	right: 0;
+	z-index: 999;
+	text-align: left;
+
+}
+
+.pagination li {
+	float: left;
+}
+
+.pagination li+li {
+	margin-left: 16px;
+}
+
+.pagination li a {
+	display: block;
+	width: 32px;
+	cursor: pointer;
+	height: 32px;
+	background: url(../images/icon/pagination.png) right 0 no-repeat;
+	overflow: hidden;
+	color: transparent;
+	text-indent: -100px;
+	transition: 0s ease;
+	-o-transition: 0s ease;
+	-webkit-transition: 0s ease;
+}
+
+.pagination li a:hover, .pagination li.current a {
+	background-position: 0 0;
+	cursor: pointer;
+}

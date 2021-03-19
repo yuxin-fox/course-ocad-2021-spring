@@ -1,0 +1,14 @@
+/* This file is the styles of dogs clinic */
+/* Author: Yuxin Gao */
+/* Date: Mar 9, 2021 */
+/* version 0.1 */
+
+#rest {
+    background-image: url("../images/pets/dogs/stringio.jpg");
+    width: 1450px;
+    height: 967px ;
+}
+
+.product-showcase{
+    background-image: url("../images/cover/cover4.gif");
+}

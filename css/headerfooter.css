@@ -1,0 +1,76 @@
+/* Author: Yuxin Gao */
+/* Date: Mar 9, 2021 */
+/* version 0.1 */
+
+header {
+	display: block;
+	position: fixed;
+	z-index: 999;
+	left: 0;
+	right: 0;
+	padding-bottom: 20px;
+	top: 0;
+	overflow: hidden;
+	background-color: #334960;
+	transition: 0.2s ease;
+	-o-transition: 0.1s ease;
+	-webkit-transition: 0.2s ease;
+	text-align: center;
+}
+
+header h1 a {
+	display: block;
+	overflow: hidden;
+	width: 108px;
+	height: 60px;
+	text-indent: -999px;
+	transition: 0s ease;
+	-o-transition: 0s ease;
+	-webkit-transition: 0s ease;
+}
+
+header h1 a img {
+	display: block;	
+}
+
+header.page1 .men .hover{
+	top: 0;
+}
+
+footer {
+	display: block;
+}
+
+footer a:hover {
+	color: #f17c72;
+}
+
+.copy {
+	color: #e0e8ec;
+	padding-top: 29px;
+	padding-bottom: 30px;
+	font-size: 12px;
+	line-height: 24px;
+}
+
+#toTop {
+	display:none;
+	text-decoration:none;
+	position:fixed;
+	bottom:40px;
+	margin-right: -620px !important;
+	overflow:hidden;
+	width:45px;
+	height:45px;
+	border:none;
+	text-indent:-999px;
+	z-index:999;
+	background:url(../images/icon/totop.png) no-repeat left top;
+	transition: 0s ease;
+	-webkit-transition: 0s ease;
+	-o-transition: 0s ease;	
+}
+
+#toTop:hover {
+	background-position: right 0;
+}

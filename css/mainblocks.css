@@ -1,0 +1,90 @@
+/* This file is for general blocks page 1, 2, 3, 6, 7 */
+/* Author: Yuxin Gao */
+/* Last Edited Date: Mar 12, 2021 */
+/* version 0.2 */
+
+#page1 {
+	padding-bottom: 191px;
+}
+
+#page2 {
+	background-image: url("../images/cover/cover1.gif");
+	padding-top: 230px;
+	padding-bottom: 500px;
+	padding-bottom: 190px;
+}
+
+#page2 h3 span {
+	background-color: #494fa3;
+}
+
+#page2 h3 span, #page2 h3 em {
+	display: inline-block;
+	padding: 0 3px;
+}
+
+#page2 h3 em {
+	font-style: normal;
+	background-color: #464dac;
+}
+
+#page2 .box:hover {
+	opacity:0.7;
+}
+
+#page3 {
+	background-image: url("../images/cover/giphy-2.gif");
+	padding-top: 230px;
+	padding-bottom: 500px;
+	padding-bottom: 190px;
+}
+
+#page3  {
+	padding-bottom: 190px;
+}
+
+#page3 .box:hover {
+	opacity:0.7;
+}
+
+#page3:after {
+	border-color: #0a1069 transparent transparent transparent;
+}
+
+#page3 .box {
+	color: #fff;
+	background-color: #cddc46;
+	border-color: #ececb7;
+	padding: 22px 15px 27px;
+}
+
+#page3 .box img {
+	margin-bottom: 21px;
+	border-color: #c8f5ee;
+	background-color: #334960;
+}
+
+#page3 .box .text1 {
+	margin-bottom: 16px;
+}
+
+.slogan h3 {
+    color: lightslategray;
+}
+
+#page6 {
+	/* background: rgba(144, 194, 197, 0.8) */
+	background-image: url("../images/pets/cats/wall.jpg");
+}
+
+#page6 .box:hover {
+	opacity:0.7;
+}
+
+#page6:after{
+	border-color: rgba(255, 255, 198, 0.8) transparent transparent transparent;
+}
+
+.slogan h3 {
+	margin-bottom: 30px;
+}

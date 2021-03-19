@@ -1,0 +1,61 @@
+/* This file is the styles of cats clinic */
+/* Author: Yuxin Gao */
+/* Date: Mar 9, 2021 */
+/* version 0.1 */
+
+#rest {
+    background-image: url("../images/pets/cats/catHospital.jpg");
+    width: 1450px;
+    height: 950px ;
+}
+
+.btn-w3r {
+    background:  #e0b114; /* Old browsers */
+    background: -moz-linear-gradient(top,  #e0b114 0%, #e0b114 50%, #e0b114 100%); /* FF3.6+ */
+    background: -webkit-gradient(linear, left top, left bottom, color-stop(0%, #e0b114), color-stop(50%, #b8900f), color-stop(100%, #a07c08)); /*   Chrome,Safari4+ */
+    background: -webkit-linear-gradient(top,  #e0b114 0%, #e0b114 50%, #e0b114 100%); /* Chrome10+,Safari5.1+ */
+    background: -o-linear-gradient(top,  #e0b114 0%, #e0b114 50%, #e0b114 100%); /* Opera 11.10+ */
+    background: -ms-linear-gradient(top, #e0b114 0%, #e0b114 50%, #e0b114 100%); /* IE10+ */
+    background: linear-gradient(to bottom, #e0b114 0%, #e0b114 50%, #e0b114 100%); /* W3C */
+    filter: progid:DXImageTransform.Microsoft.gradient( startColorstr='#cb60b3', endColorstr='#de47ac',GradientType=0 ); /* IE6-9 */
+    
+    width:200px;
+    height:40px;
+    /* animation-name: moveButton;
+    animation-duration: 5s;
+    animation-delay: 2s;
+    animation-iteration-count: infinite; */
+}
+
+
+@keyframes moveCat
+{
+    0%   {top:700px; left:20px;  opacity: 0.9;}
+    50%  {top:700px; left:900px;  opacity: 0.0;}
+    100% {top:700px; left:20px;  opacity: 0.9;}
+}
+
+.seat-img{
+    top: 700px;
+    left: 20px;
+    width:"50px";
+    height:"50px";
+    position: relative;
+    text-align: center;
+
+    animation-name: moveCat;
+    animation-duration: 2s;
+    animation-delay: 2s;
+    animation-iteration-count: infinite;
+}
+
+#seat {
+    position: relative;
+    left: 100pt;
+    top: 240pt;
+}
+
+.product-showcase{
+    background-image: url("../images/pets/cats/catHospital.jpg");
+}
+

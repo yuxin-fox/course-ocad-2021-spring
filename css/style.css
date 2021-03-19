@@ -1,0 +1,15 @@
+/* This file is the overview of styles for Assignment 2----Graphic Design */
+/* Author: Yuxin Gao */
+/* Date: Mar 9, 2021 */
+/* version 0.1 */
+
+@import "../css/reset.css";  /* Style for DOMs' reset styles */
+@import "../css/navMenu.css"; /* Style for nav menu */
+@import "../css/mainblocks.css"; /* Style for main blocks in <body> */
+@import "../css/headerfooter.css"; /* Style for main blocks in <header> and <footer> */
+@import "../css/indexbody.css";  /* styles for general elements in HTML*/
+@import "../css/zerogrid.css" ; /* styles for grid sizes */
+@import "../css/slide.css"; /* styles for slide windows */
+@import "../css/form.css";  /* styles for forms */
+@import "../css/social-icons.css"; /* styles for social links */
+
