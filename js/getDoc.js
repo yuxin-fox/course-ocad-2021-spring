@@ -1,3 +1,6 @@
+console.log("It may take seconds to loads all the resources!")
+
+
 $(document).ready(function(){
     $('.slider_wrapper')._TMS({
         show:0,
